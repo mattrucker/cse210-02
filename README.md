@@ -17,7 +17,7 @@ Hilo is a game in which the player guesses if the next card drawn by the dealer 
 
 ### Matt Rucker's ideas (to be removed later)
 - follow Brother Manley's lead on breaking apart the code into compostable chunks
-- two classes, one that instantiates the game itself "game()", another that generates a card object "card()" that returns attributes value and points (just like the first example). If the game was to support more than one player, I would suggest we implement a player() class.
+- two classes, one that instantiates the game itself "game()", another that generates a card object "card()" that returns attributes value (just like the first example). If the game was to support more than one player, I would suggest we implement a player() class.
 - the game() class should implement most of our methods. Think methods like firstcard(), nextcard(), playerinput(), displayscore(), playagain(), calculatescore(), etc.
 - main() will only import game(), refer to the "broken" example. I'll build a sample structure and some basic code in the repo. I'll build the method card().
 - you could choose to implement the playerinput method in the card() class, but I'm not sure it matters either way. For simplicity's sake, keeping the playerinput in the game() class would make more sense.
